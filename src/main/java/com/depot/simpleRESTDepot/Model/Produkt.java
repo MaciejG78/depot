@@ -35,7 +35,6 @@ public class Produkt implements Serializable {
     @OneToOne(mappedBy = "produkt", orphanRemoval = true, cascade = CascadeType.PERSIST)
     @JsonManagedReference("produkt")
     @JsonProperty
-//    @JsonIgnore
     private Wyswietlenia wyswietlenia;
 
     @Enumerated

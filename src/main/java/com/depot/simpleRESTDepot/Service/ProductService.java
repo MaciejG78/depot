@@ -2,13 +2,11 @@ package com.depot.simpleRESTDepot.Service;
 
 import com.depot.simpleRESTDepot.Exception.ResourceNotFoundException;
 import com.depot.simpleRESTDepot.Model.Produkt;
-import com.depot.simpleRESTDepot.Model.Wyswietlenia;
 import com.depot.simpleRESTDepot.Repository.ProductRepository;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@SuppressWarnings("unchecked")
 @Service
 @NoArgsConstructor
 public class ProductService {
